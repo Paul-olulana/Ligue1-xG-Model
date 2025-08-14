@@ -1,0 +1,29 @@
+{
+  "generated_at": "2025-08-14T13:30:42.328903Z",
+  "random_state": 42,
+  "penalty": "l2",
+  "solver": "saga",
+  "best_C": 0.1668100537200059,
+  "features_numeric": [
+    "x",
+    "y",
+    "dist_to_center",
+    "open_angle",
+    "y_from_center",
+    "log_dist",
+    "cos_angle",
+    "sin_angle",
+    "angle_x_header"
+  ],
+  "features_categorical": [
+    "BodyPart",
+    "play_type"
+  ],
+  "calibration": "isotonic on hold-out validation",
+  "split": {
+    "outer": "GroupShuffleSplit (70/30 trainval/test by match)",
+    "inner_val": "GroupShuffleSplit (trainval -> train/val)",
+    "cv_oof": "StratifiedGroupKFold(n_splits=5)"
+  },
+  "penalty_xg_constant": 0.76
+}
