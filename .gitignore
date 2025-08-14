@@ -1,0 +1,34 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment folders
+env/
+venv/
+.venv/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Data files - keep only small samples
+data/*.csv
+data/*.xlsx
+data/*.json
+*.zip
+*.tar.gz
+
+# Model artifacts
+artifacts/
+*.pkl
+*.joblib
+
+# Logs
+*.log
+
+# Large files (>100MB) should use Git LFS instead
